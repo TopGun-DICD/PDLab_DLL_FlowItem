@@ -1,0 +1,9 @@
+LIBRARY "PDLab_DLL_FlowItem"
+EXPORTS
+			GetType
+			GetInfo
+			GetCaption
+			GetAuthor
+			GetItem
+			FreeItem
+
