@@ -35,3 +35,9 @@ build/msvs2019/x64/
 bin/PDLab_DLL_FlowItem.exp
 bin/PDLab_DLL_FlowItem.ilk
 bin/PDLab_DLL_FlowItem.pdb
+bin/PDLab_DLL_FlowItem.iobj
+bin/PDLab_DLL_FlowItem.ipdb
+bin/PDLab_DLL_FlowItemd.exp
+bin/PDLab_DLL_FlowItemd.ilk
+bin/PDLab_DLL_FlowItemd.pdb
+bin/PDLab_DLL_FlowItemdd.ilk
