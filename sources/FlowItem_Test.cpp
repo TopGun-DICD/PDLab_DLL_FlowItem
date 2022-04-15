@@ -37,7 +37,7 @@ bool FlowItem_Test::ExecuteEventHandler() {
   for (size_t i = 0; i < p_layout->libraries.size(); ++i) {
     p_logger->Log(QString("\t  - Library [%1] has name '%2' and contains %3 elements:").arg(i).arg(QString::fromStdString(p_layout->libraries[i]->name)).arg(p_layout->libraries[i]->elements.size()));
     for (size_t j = 0; j < p_layout->libraries[i]->elements.size(); ++j)
-      p_logger->Log(QString("\t    * %1 (contains %2 geometries)").arg(QString::fromStdString(p_layout->libraries[i]->elements[j]->name)).arg(p_layout->libraries[i]->elements[j]->items.size()));
+      p_logger->Log(QString("\t    * %1 (contains %2 geometries)").arg(QString::fromStdString(p_layout->libraries[i]->elements[j]->name)).arg(p_layout->libraries[i]->elements[j]->geometries.size()));
     p_logger->Log(QString("\t  - Library [%1] also contains %2 layers (in order of appearance):").arg(i).arg(p_layout->libraries[i]->layers.size()));
     for (size_t j = 0; j < p_layout->libraries[i]->layers.size(); ++j)
       if(p_layout->libraries[i]->layers[j].name.empty())
